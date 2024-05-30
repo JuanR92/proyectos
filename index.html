@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Game Store</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Retro Game Store</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page1.html">About Us</a></li>
+            <li><a href="page2.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container mt-4">
+        <aside>
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#bookmark">Go Down</a></li>
+                <li><a href="https://retrogamevalencia.com" target="_blank">External Link</a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <h2>Welcome to Retro Game Store</h2>
+            <p>Discover and purchase your favorite classic video games.</p>
+
+            <!-- Section for Unordered List -->
+            <section class="styled-section">
+                <h3>What We Offer</h3>
+                <p>At Retro Game Store, we offer:</p>
+                <ul>
+                    <li>Wide selection of classic games</li>
+                    <li>Competitive prices</li>
+                    <li>Fast shipping</li>
+                </ul>
+            </section>
+
+            <!-- Section for Ordered List -->
+            <section class="styled-section">
+                <h3>Additional Benefits</h3>
+                <p>We also have:</p>
+                <ol>
+                    <li>Exclusive offers</li>
+                    <li>Membership benefits</li>
+                    <li>Frequent updates</li>
+                </ol>
+            </section>
+
+            <!-- Section for Descriptive List -->
+            <section class="styled-section">
+                <h3>Our Products</h3>
+                <dl>
+                    <dt>Classic Games</dt>
+                    <dd>- Nintendo</dd>
+                    <dd>- Sega</dd>
+                    <dd>- PlayStation</dd>
+                    <dt>Consoles</dt>
+                    <dd>- NES</dd>
+                    <dd>- SNES</dd>
+                    <dd>- Genesis</dd>
+                </dl>
+            </section>
+
+            <!-- Form -->
+            <section class="styled-section">
+                <h3>Contact Us</h3>
+                <form id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit" class="btn btn-primary mt-2">Submit</button>
+                </form>
+            </section>
+
+            <!-- JSON Data -->
+            <section class="styled-section">
+                <h3>Sales Data</h3>
+                <div id="chart-container"></div>
+            </section>
+
+            <!-- Container for Products -->
+            <section class="styled-section">
+                <h3>Our Products</h3>
+                <div id="products-container"></div>
+            </section>
+
+            <!-- Bookmark -->
+            <section class="styled-section text-center">
+                <a id="bookmark" href="#top" class="btn btn-secondary">Back to Top</a>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Retro Game Store. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Your custom script -->
+    <script src="/javascript/scripts.js"></script>
+</body>
+</html>

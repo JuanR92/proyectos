@@ -1,0 +1,44 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Super Mario Bros.",
+            "platform": "Nintendo Entertainment System (NES)",
+            "price": 25.99,
+            "description": "Classic platform game where Mario sets out to rescue Princess Peach from Bowser.",
+            "image": "/images/super_mario_bros.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Sonic the Hedgehog",
+            "platform": "Sega Genesis",
+            "price": 19.99,
+            "description": "High-speed platform game featuring Sonic as he fights against Dr. Robotnik.",
+            "image": "/images/sonic_the_hedgehog.jpg"
+        },
+        {
+            "id": 3,
+            "name": "The Legend of Zelda",
+            "platform": "Nintendo Entertainment System (NES)",
+            "price": 29.99,
+            "description": "Adventure game where Link sets out to rescue Princess Zelda and defeat Ganon.",
+            "image": "/images/legend_of_zelda.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Street Fighter II",
+            "platform": "Super Nintendo Entertainment System (SNES)",
+            "price": 22.99,
+            "description": "Classic fighting game with a roster of international fighters.",
+            "image": "/images/street_fighter_ii.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Final Fantasy VII",
+            "platform": "PlayStation",
+            "price": 35.99,
+            "description": "Role-playing game that follows Cloud Strife and his allies as they battle the megacorporation Shinra and the villain Sephiroth.",
+            "image": "/images/final_fantasy_vii.jpeg"
+        }
+    ]
+}
